@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tools - BMI, Calories, Exercise | HealthMeter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/health_logo.png" alt="HealthMeter Logo" class="logo">
+                <a href="index.html" class="logo-text">HealthMeter</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="blog.html">Health Hub</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">Menu</button>
+        </div>
+    </header>
+    <main>
+        <section id="tools-intro" class="content-section page-hero-section">
+            <div class="container">
+                <h1 class="page-title">Our Health & Wellness Tools</h1>
+                <p class="section-subtitle">Utilize our suite of tools to track your progress and make informed health decisions.</p>
+            </div>
+        </section>
+
+        <section id="bmi-calculator-section" class="tool-section">
+            <div class="container">
+                <h2>BMI Calculator</h2>
+                <form id="bmi-form">
+                    <div class="form-group">
+                        <label for="height">Height (cm):</label>
+                        <input type="number" id="height" name="height" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="number" id="weight" name="weight" required>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Calculate BMI</button>
+                </form>
+                <div id="bmi-result" class="result-area">
+                    <!-- BMI result will be displayed here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="calorie-counter-section" class="tool-section alternate-bg">
+            <div class="container">
+                <h2>Calorie Counter</h2>
+                <p>Log your daily food intake to estimate your calorie consumption.</p>
+                <div id="calorie-form-area">
+                    <form id="calorie-form">
+                        <div class="form-group">
+                            <label for="food-search">Search Food:</label>
+                            <input type="text" id="food-search" placeholder="e.g., Apple">
+                            <button type="button" id="search-btn" class="btn-small secondary-btn">Search</button>
+                        </div>
+                        <div id="search-results" class="search-results-area">
+                            <!-- Search results will appear here -->
+                        </div>
+                         <div class="form-group">
+                            <label for="quantity">Quantity (e.g., 1, 100g):</label>
+                            <input type="text" id="quantity" value="1" required>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Add to Log</button>
+                    </form>
+                </div>
+                <div id="food-log">
+                    <h3>Today's Log</h3>
+                    <ul id="food-log-list">
+                        <!-- Logged food items will appear here -->
+                    </ul>
+                </div>
+                <div id="calorie-total" class="result-area">
+                    <h3>Total Calories: <span id="total-calories-value">0</span></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="exercise-suggestions-section" class="content-section">
+            <div class="container">
+                <h2>Personalized Exercise Suggestions</h2>
+                <p>Get exercise tips based on your BMI result. Calculate your BMI first using the tool above!</p>
+                <div id="exercise-content">
+                    <!-- Exercise suggestions will be loaded here based on BMI -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h4>HealthMeter</h4>
+                    <p>Your partner in achieving a healthier and more informed lifestyle. Empowering you with tools and knowledge for better well-being.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="blog.html">Health Hub</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <a href="#" aria-label="Facebook"><img src="images/icon_facebook.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/icon_twitter.png" alt="Twitter"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/icon_instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HealthMeter. All rights reserved. Designed with care.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
