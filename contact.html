@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Get in Touch | HealthMeter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/health_logo.png" alt="HealthMeter Logo" class="logo">
+                <a href="index.html" class="logo-text">HealthMeter</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="blog.html">Health Hub</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">Menu</button>
+        </div>
+    </header>
+    <main>
+        <section id="contact-main" class="contact-section page-hero-section">
+            <div class="container">
+                <h1 class="page-title">Get In Touch</h1>
+                <p class="section-subtitle">Have questions, feedback, or suggestions? We'd love to hear from you! Use the form below or subscribe to our newsletter.</p>
+            </div>
+        </section>
+
+        <section id="contact-form-section" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Send Us a Message</h2>
+                <form id="contact-form" class="contact-form-grid">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+                    <div class="form-group form-group-full">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="contact-subject" required>
+                    </div>
+                    <div class="form-group form-group-full">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="contact-message" rows="6" required></textarea>
+                    </div>
+                    <div class="form-group-full text-center">
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </div>
+                </form>
+                <div id="contact-response" class="result-area">
+                    <!-- Contact form response will be displayed here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section cta-section alternate-bg">
+            <div class="container">
+                <div class="newsletter-content">
+                    <img src="images/icon_newsletter_subscription.png" alt="Newsletter Icon" class="newsletter-icon">
+                    <h2>Stay Updated with HealthMeter</h2>
+                    <p>Sign up for our newsletter for the latest health tips, articles, platform updates, and exclusive content delivered straight to your inbox.</p>
+                </div>
+                <form id="newsletter-form" class="newsletter-form-container">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn primary-btn">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h4>HealthMeter</h4>
+                    <p>Your partner in achieving a healthier and more informed lifestyle. Empowering you with tools and knowledge for better well-being.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="blog.html">Health Hub</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <a href="#" aria-label="Facebook"><img src="images/icon_facebook.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/icon_twitter.png" alt="Twitter"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/icon_instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HealthMeter. All rights reserved. Designed with care.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
