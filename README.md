@@ -16,6 +16,19 @@ Based on the user's BMI calculation, HealthMeter provides tailored exercise reco
 ### Health Information Hub
 The Health Hub section offers educational content covering various aspects of health and wellness. Articles include detailed explanations of BMI and its significance, the relationship between nutrition and fitness, common health myths with factual corrections, and best practices for diet and exercise. This knowledge base helps users make informed decisions about their health journey beyond just the numbers.
 
+### IBM Cloud Chatbot Assistant
+HealthMeter now features an intelligent chatbot powered by IBM Cloud technology. This interactive assistant provides users with:
+- Detailed information about BMI calculation and interpretation
+- Personalized workout recommendations based on BMI results
+- Website navigation assistance
+- Explanations of BMI limitations and considerations
+- Calorie information for various food items
+- Food logging guidance and nutritional advice
+- Fact-checking of common health myths
+- Answers to a wide range of health, nutrition, and fitness questions
+
+The chatbot enhances user experience by offering immediate, personalized assistance and expanding the educational resources available through the platform.
+
 ### Additional Features
 - Responsive design that adapts seamlessly to different screen sizes and devices
 - User testimonials highlighting positive experiences with the platform
@@ -79,6 +92,13 @@ To set up the HealthMeter website locally, follow these steps:
 2. Browse through the articles to learn about BMI, nutrition, fitness, and health myths.
 3. Use this information to complement the interactive tools and enhance your health journey.
 
+### IBM Cloud Chatbot
+1. Look for the chatbot icon in the bottom right corner of any page on the website.
+2. Click on the icon to open the chat interface.
+3. Type your question or select from suggested topics to get started.
+4. The chatbot can assist with BMI information, workout recommendations, website navigation, food calorie information, and more.
+5. Continue the conversation by asking follow-up questions or selecting new topics.
+
 ## Technologies Used
 
 HealthMeter is built using the following technologies:
@@ -86,10 +106,18 @@ HealthMeter is built using the following technologies:
 - **HTML5**: Provides the structural foundation of the website with semantic markup for improved accessibility and SEO.
 - **CSS3**: Handles all styling aspects, including the responsive design that adapts to various screen sizes, color schemes, transitions, and layout management.
 - **JavaScript (ES6+)**: Powers all interactive elements, including the BMI calculator, calorie counter functionality, dynamic exercise suggestions, and form validations.
+- **IBM Cloud**: Powers the intelligent chatbot assistant that provides personalized guidance and information to users.
 - **Responsive Design**: Implements media queries and flexible layouts to ensure optimal viewing experience across devices from mobile phones to desktop monitors.
 - **Local Storage**: Future implementations may include browser local storage to persist user data between sessions.
 
-No external libraries or frameworks are used, making this a lightweight and dependency-free application that demonstrates proficiency in vanilla web technologies.
+No external libraries or frameworks are used for the core functionality, making this a lightweight application that demonstrates proficiency in vanilla web technologies.
+
+## Contributors
+
+The HealthMeter project has been made possible through the contributions of the following individuals:
+
+- **Parikshit** - (https://github.com/parikshit-singh05)
+- **Rasraj Suri** - (https://github.com/Rasraj177)
 
 ## Contributing
 
@@ -122,6 +150,7 @@ Contributions to the HealthMeter project are welcome and appreciated. To contrib
 - Implementing additional health calculators (e.g., body fat percentage, daily calorie needs)
 - Enhancing the information hub with more articles and visual aids
 - Adding data visualization for tracking progress over time
+- Expanding the IBM Cloud chatbot's capabilities and knowledge base
 
 ## License
 
@@ -132,6 +161,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Health information content is provided for educational purposes only and should not replace professional medical advice.
 - The food database in the calorie counter contains approximate values and should be used as general guidance.
 - Special thanks to all contributors and users who provide feedback to improve this tool.
+- IBM Cloud for providing the technology behind our intelligent chatbot assistant.
 
 ---
 
